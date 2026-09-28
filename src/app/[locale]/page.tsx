@@ -57,8 +57,8 @@ export default function HomePage() {
             <dl className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 animate-slide-up [animation-delay:240ms]">
               {[
                 { value: crops.length, label: t('statsCrops') },
-                { value: diseases.length, label: t('statsDiseases') },
-                { value: '2', label: t('statsLanguages') },
+                { value: '30+', label: t('statsDiseases') },
+                { value: '3', label: t('statsLanguages') },
                 { value: '✓', label: t('statsFree') },
               ].map((stat) => (
                 <div
